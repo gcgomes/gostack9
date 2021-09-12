@@ -1,0 +1,33 @@
+Aula 2
+
+Node.js:
+- Plataforma construída em cima da V8 Google Chrome;
+- JS no back-end (Integrações, rotas, regras de negócio);
+- Arquitetura do tipo event-loop (baseada em eventos);
+- Utiliza o call stack (pilha de eventos);
+- É single-thread, porém utiliza brackground threads C++ com a libuv;
+- Non-blocking I/O;
+- Comparável a PHP / Ruby / Python.
+
+NPM/Yarn:
+- Instalação de biblioteca de terceiros;
+- Fornecimento de bibliotecas;
+- Comparável ao Composer PHP / Gems Ruby / PIP Python.
+
+Frameworks:
+- ExpressJS como base (sem opinião, ótimo para iniciar, micro-serviços)
+
+API Rest:
+- Retorna uma estrutura de dados (JSON) e não uma view como nos modelos Full MVC
+- Métodos HTTP (GET, POST, PUT, DELETE)
+- Tipos de parâmetros (Route Params, Query Params, Headers Request, Body Request)
+
+HTTP Codes:
+- 1xx Informacional
+- 2xx Sucesso
+- 3xx Redirecionamento
+- 4xx Erro do cliente
+- 5xx Erros do servidor
+
+Middleware:
+- Função que recebe os parâmetros e manipula os dados de alguma forma
